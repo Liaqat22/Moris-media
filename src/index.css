@@ -1,0 +1,177 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:display=swap');
+
+*{
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* ========================================== content font size =============================================== */
+.headinglarge{
+  font-size: 6.1rem;
+}
+.headingmedium{
+  font-size: 2.7rem;
+}
+.paratext{
+  font-size: 2rem;
+}
+.heading16px{
+  font-size: 1.6rem;
+}
+.heading15px{
+  font-size: 1.5rem;
+}
+.heading18px{
+  font-size: 1.8rem;
+}
+.heading11px{
+  font-size: 1.1rem;
+}
+.heading14px{
+  font-size: 1.4rem;
+}
+.fontweight900{
+  font-weight: 900;
+}
+.whitecolor{
+  color: white;
+}
+
+/* ========================================= Regstration ============================================================ */
+.containerfluid{
+  padding: 5rem 3.5rem;
+}
+.rows{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registerbgimg{
+  background-image: url(../src/media/Mask\ Group\ 15033@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;  
+    background-position: center;
+
+}
+.getstartedbtn{
+  background-color: rgb(110, 13, 136);
+    font-size: 1.5rem;
+    padding: 0.4rem 1.5rem;
+    border: none;
+    margin: 2rem 0rem;
+    border-radius: 0.5rem;
+}
+.getstartedbtn:hover{
+  background-color: rgb(110, 13, 136);  
+}
+.signupWith{
+  background-color:transparent;
+  font-size: 1.6rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 2.4rem;
+  border: 0.03rem solid #707070;
+  color: #707070;
+
+}
+.signupWith:hover{
+  background-color: #707070;
+  border: 0.03rem solid #707070;
+
+}
+.mocal{
+  position: relative;
+  right: 12rem;
+width: 160%;
+}
+.flexdirection{
+  display: flex;
+  flex-direction: column;
+}
+.card{
+  padding: 3rem 1rem;
+  border-radius: 2.6rem;
+ min-height: 60rem;
+  overflow: hidden;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+/* =================================== form control ================================================ */
+.form-control{
+  margin: 1rem 0rem;
+  font-size: 1.6rem;
+  color: #707070;
+  border-bottom: 0.1rem solid #707070;
+  border-top: none;
+  border-left: none;
+  border-radius: 0;
+  border-right: none;
+}
+ul{
+  list-style: none;
+}
+/* ====================================== stage3 ====================================================== */
+.btnstge3margin{
+  margin: 0.1rem 0rem;
+}
+.freetrailmargin{
+  margin: 3rem 0rem 1rem 0rem;
+}
+ 
+/* =============================================== emailverification ================================================ */
+.verification-code-box{
+  display: flex;
+justify-content: space-evenly;
+}
+.inputboxfield{
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+/* =============================================== approvalinvitationpage ================================================ */
+.approvalinvitationbgimg{
+  background-image: url(../src/media/Group\ 18325.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  border-radius: 2rem;
+
+}
+.approvalinvitationrows{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.congractulationmain{
+  background-color: #FDEC07;
+  border-radius: 1rem;
+}
+.congractulation{
+  margin: 2rem 0rem;
+  padding: 0.8rem 1rem;
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: rgb(110, 13, 136) ;
+  text-transform: uppercase;
+}
+.signinNowbtn{
+  background-color:#6E0D88;
+  padding: 0.9rem;
+  margin-top: 5rem;
+
+}
